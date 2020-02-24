@@ -1,0 +1,162 @@
+.navbar {
+    background: transparent;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: #5225a1;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-ot {
+    background: linear-gradient(83deg, #4527a0 2%, #7b1fa2 96%);
+}
+
+.btn-primary {
+    background: linear-gradient(83deg, #4527a0 2%, #7b1fa2 96%);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: .5em 1.5em .5em 1.5em;
+}
+
+#hero {
+    background-image: url("../img/background-image@2x.jpg");
+        background-color: #0000006e;
+        height: 600px; 
+        background-position: center;
+        background-repeat: no-repeat; 
+        background-size: cover;
+}
+
+
+.hero-cta {
+    position: absolute;
+    max-width: 900px;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    left: 50%;
+    top: 45%;
+    text-align: center;
+    padding: 2em;
+}
+
+.btn-hero {
+    margin-top: 2em;
+}
+
+.section-1-first, .section-2-first {
+    margin : auto
+}
+
+.section-1, .section-2, .section-4, footer {
+    padding: 3em 0 3em 0;
+}
+
+.section-1 h2, .section-2 h2, .section-4 h2 {
+    color: #5225a1;
+}
+
+.section-3 {
+    display: flex;
+    background-image: url(../img/section-backgroud-image@2x.jpg);
+    background-color: #000000;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.newsletter {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.profil-form {
+    max-width: 600px;
+    margin: auto;
+}
+.btn-newsletter {
+    margin: 2em;
+    text-align: center;
+}
+
+.btn-modal {
+    min-width: 400px;
+    margin: 5px auto;
+}
+
+footer{
+    background: #1d0c3b;
+}
+
+footer li {
+    list-style-type: none;
+}
+footer a, footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.solid {
+    border-top: 1px solid #ffffff;
+    opacity: 0.5;
+}
+footer p {
+    color: #fff;
+}
+.rs {
+    display: inline-flex;
+}
+.rs img {
+    height: 20px;
+}
+.rs a {
+    padding: .5em;
+}
+
+.rs a:hover {
+    padding: .5em;
+    color: #fff;
+}
+
+.modal h5 {
+    text-align: center;
+    color : #5225a1;
+}
+
+
+/* Page de completion de profil */ 
+
+.section-4 form {
+    padding: 1em;
+}
+
+.profile {
+    border-radius: 50px;
+    object-fit: contain;
+}
+
+.profile-infos {
+    display: flex;
+}
+
+.profile-infos p {
+    margin: auto;
+    color: #fff;
+    padding: 1em;
+}
